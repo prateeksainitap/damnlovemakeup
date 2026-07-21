@@ -471,6 +471,12 @@ body.m-open .burger span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg
 .step-i.on .s-dot,.step-i.done .s-dot{background:var(--pink);border-color:var(--pink);color:var(--bg);font-style:normal;font-weight:700;font-family:var(--sans)}
 .step-i.on span,.step-i.done span{color:var(--ivory)}
 .step-i:last-child .s-bar{display:none}
+/* mobile: hide step text labels so the row never clips ("CONFIRM" cut-off) — keep numbered dots */
+@media (max-width:560px){
+  .bmodal .step-i span:not(.s-dot):not(.s-bar){display:none}
+  .bmodal .step-i{gap:0}
+  .bmodal .steps{margin-bottom:1.4rem}
+}
 .panes{position:relative}
 .pane{display:none;animation:paneIn .7s var(--ease)}
 .pane.on{display:block}
