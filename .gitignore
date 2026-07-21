@@ -1,0 +1,9 @@
+.dev.vars
+.wrangler/
+node_modules/
+package-lock.json
+.DS_Store
+*.bak
+*.pre-salon*
+
+SECRETS.local.txt

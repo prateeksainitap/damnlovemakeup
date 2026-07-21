@@ -1,0 +1,16 @@
+# DamnLove Makeup · Cloudflare Pages configuration
+name = "damnlove-makeup"
+compatibility_date = "2026-07-01"
+pages_build_output_dir = "public"
+
+# D1 database binding — replace database_id after `wrangler d1 create damnlove-bookings`
+[[d1_databases]]
+binding = "DB"
+database_name = "damnlove-bookings"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+# ── Admin dashboard (set these as encrypted secrets/vars in the Pages dashboard) ──
+# ADMIN_USER      = "laveena"          (Settings > Environment variables)
+# ADMIN_PASSWORD  = "a-strong-password"  (mark as Secret / encrypted)
+# SESSION_SECRET  = "a-long-random-string"
+# ADMIN_TOKEN     = "another-long-random-string"  (for /api/bookings?token= JSON export)
