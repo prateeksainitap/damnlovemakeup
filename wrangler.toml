@@ -7,7 +7,7 @@ pages_build_output_dir = "public"
 [[d1_databases]]
 binding = "DB"
 database_name = "damnlove-bookings"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "6b72ab03-0edc-4d0c-a1c6-4fbc29450814"
 
 # ── Admin dashboard (set these as encrypted secrets/vars in the Pages dashboard) ──
 # ADMIN_USER      = "laveena"          (Settings > Environment variables)
