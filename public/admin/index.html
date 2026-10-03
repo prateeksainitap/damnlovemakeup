@@ -17,11 +17,11 @@
 <link rel="icon" type="image/svg+xml" href="../assets/mark.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#0F090D;--bg-2:#150D12;--panel:#1B1017;--card:#1E1219;
-  --pink:#D40094;--pink-hi:#EE2FA9;--blush:#F2A6DE;--rose:#C06BA6;
+  --pink:#D40094;--pink-hi:#B8007F;--blush:#F2A6DE;--rose:#C06BA6;
   --ivory:#F7EEF0;--mut:#AC8CA0;--hair:rgba(212,0,148,.18);--hair-2:rgba(247,238,240,.09);
   --new:#E0A73E;--conf:#4FA56B;--done:#6C8CC0;--canc:#B0607C;
   --serif:"Playfair Display",serif;--sans:"Manrope",sans-serif;--ease:cubic-bezier(.19,1,.22,1);
@@ -44,7 +44,7 @@ input,select,textarea{font:inherit}
 .login-card h1 em{font-style:italic;color:var(--blush)}
 .login-card .sub{font-size:.7rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--mut);margin-bottom:2rem}
 .field{margin-bottom:1.3rem}
-.field label{display:block;font-size:.58rem;font-weight:800;letter-spacing:.26em;text-transform:uppercase;color:var(--mut);margin-bottom:.5rem}
+.field label{display:block;font-size:.7rem;font-weight:800;letter-spacing:.26em;text-transform:uppercase;color:var(--mut);margin-bottom:.5rem}
 .field input{width:100%;background:var(--panel);border:1px solid var(--hair);border-radius:10px;padding:.85rem 1rem;color:var(--ivory);transition:border-color .3s}
 .field input:focus{outline:none;border-color:var(--pink)}
 .pw-wrap{position:relative;display:flex;align-items:center}
@@ -54,7 +54,7 @@ input,select,textarea{font:inherit}
 .pw-toggle:focus-visible{outline:2px solid var(--pink);outline-offset:1px}
 .pw-toggle svg{width:20px;height:20px}
 .pw-toggle[hidden]{display:none}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;font-size:.68rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;padding:.95rem 1.6rem;border-radius:999px;transition:transform .4s var(--ease),background .3s,border-color .3s,color .3s}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;font-size:.7rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;padding:.95rem 1.6rem;border-radius:999px;transition:transform .4s var(--ease),background .3s,border-color .3s,color .3s}
 .btn svg{width:14px;height:14px}
 .btn-solid{background:var(--pink);color:#fff}
 .btn-solid:hover{background:var(--pink-hi);transform:translateY(-2px)}
@@ -63,7 +63,7 @@ input,select,textarea{font:inherit}
 .btn-full{width:100%}
 .btn:disabled{opacity:.5;cursor:default;transform:none!important}
 .login-err{color:#E0245E;font-size:.82rem;margin-top:1rem;min-height:1.2em;font-weight:600}
-.login-hint{margin-top:1.6rem;font-size:.72rem;color:var(--mut);text-align:center}
+.login-hint{margin-top:1.6rem;font-size:.78rem;color:var(--mut);text-align:center}
 .login-hint a{color:var(--blush)}
 
 /* ═══ APP SHELL ═══ */
@@ -79,7 +79,7 @@ input,select,textarea{font:inherit}
 .nav-item svg{width:18px;height:18px;flex:none}
 .nav-item:hover{color:var(--ivory);background:var(--panel)}
 .nav-item.on{background:var(--pink);color:#fff}
-.nav-item .badge{margin-left:auto;background:var(--panel);color:var(--blush);font-size:.66rem;font-weight:800;padding:.1rem .5rem;border-radius:999px}
+.nav-item .badge{margin-left:auto;background:var(--panel);color:var(--blush);font-size:.7rem;font-weight:800;padding:.1rem .5rem;border-radius:999px}
 .nav-item.on .badge{background:rgba(255,255,255,.22);color:#fff}
 .side .spacer{flex:1}
 @media (max-width:860px){.side .spacer{display:none}.nav-item{padding:.6rem .7rem}.nav-item span.lbl{display:none}}
@@ -89,9 +89,9 @@ input,select,textarea{font:inherit}
   .side .brand{flex-basis:100%;justify-content:center;margin:0 0 .35rem;padding:.2rem}
   .side .brand img{width:120px}
   .side .spacer{display:none}
-  .nav-item{flex:1 1 28%;max-width:32%;min-width:0;flex-direction:column;align-items:center;justify-content:center;gap:.3rem;padding:.6rem .25rem;border-radius:11px;font-size:.6rem;text-align:center}
+  .nav-item{flex:1 1 28%;max-width:32%;min-width:0;flex-direction:column;align-items:center;justify-content:center;gap:.3rem;padding:.6rem .25rem;border-radius:11px;font-size:.7rem;text-align:center}
   .nav-item svg{width:21px;height:21px}
-  .nav-item span.lbl{display:block;font-size:.6rem;font-weight:700;letter-spacing:.01em;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+  .nav-item span.lbl{display:block;font-size:.7rem;font-weight:700;letter-spacing:.01em;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
   .nav-item .badge{display:none}
 }
 .main{padding:clamp(1.4rem,4vw,2.6rem);min-width:0;overflow-x:clip}
@@ -107,12 +107,12 @@ input,select,textarea{font:inherit}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1rem;margin-bottom:1.8rem}
 .stat{background:var(--card);border:1px solid var(--hair-2);border-radius:14px;padding:1.2rem 1.3rem}
 .stat b{font-family:var(--serif);font-size:2rem;display:block;line-height:1}
-.stat span{font-size:.62rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--mut);margin-top:.4rem;display:block}
+.stat span{font-size:.7rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--mut);margin-top:.4rem;display:block}
 .stat.s-new b{color:var(--new)}.stat.s-conf b{color:var(--conf)}.stat.s-done b{color:var(--done)}.stat.s-all b{color:var(--blush)}
 
 /* ═══ filters ═══ */
 .filters{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.4rem;align-items:center}
-.chip{font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.5rem 1rem;border-radius:999px;border:1px solid var(--hair-2);color:var(--mut);transition:all .3s}
+.chip{font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.5rem 1rem;border-radius:999px;border:1px solid var(--hair-2);color:var(--mut);transition:all .3s}
 .chip:hover{color:var(--ivory);border-color:var(--pink)}
 .chip.on{background:var(--pink);border-color:var(--pink);color:#fff}
 .search{margin-left:auto;background:var(--panel);border:1px solid var(--hair-2);border-radius:999px;padding:.5rem 1rem;color:var(--ivory);min-width:180px}
@@ -130,12 +130,12 @@ input,select,textarea{font:inherit}
 .bcard .binfo .meta span{color:var(--blush)}
 .bcard .bactions{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;justify-content:flex-end}
 @media (max-width:680px){.bcard .bactions{justify-content:flex-start}}
-.sbadge{font-size:.6rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:.3rem .7rem;border-radius:999px}
+.sbadge{font-size:.7rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:.3rem .7rem;border-radius:999px}
 .sb-new{background:rgba(224,167,62,.16);color:var(--new)}
 .sb-confirmed{background:rgba(79,165,107,.16);color:var(--conf)}
 .sb-done{background:rgba(108,140,192,.16);color:var(--done)}
 .sb-cancelled{background:rgba(176,96,124,.16);color:var(--canc)}
-.mini{font-size:.64rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:.5rem .9rem;border-radius:999px;border:1px solid var(--hair-2);color:var(--mut);transition:all .3s;display:inline-flex;align-items:center;gap:.4rem}
+.mini{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:.5rem .9rem;border-radius:999px;border:1px solid var(--hair-2);color:var(--mut);transition:all .3s;display:inline-flex;align-items:center;gap:.4rem}
 .mini svg{width:13px;height:13px}
 .mini:hover{color:var(--ivory);border-color:var(--pink)}
 .mini.wa{background:var(--pink);border-color:var(--pink);color:#fff}
@@ -155,13 +155,13 @@ input,select,textarea{font:inherit}
 .acal-nav button:disabled{opacity:.3;cursor:default}
 .acal-nav svg{width:13px;height:13px}
 .acal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:.3rem;text-align:center}
-.acal-grid .dow{font-size:.54rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--rose);padding:.3rem 0}
+.acal-grid .dow{font-size:.7rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--rose);padding:.3rem 0}
 .acal-grid .d{aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-size:.82rem;border-radius:9px;border:1px solid transparent;cursor:pointer;transition:all .25s}
 .acal-grid .d.past{color:rgba(172,140,160,.25);cursor:default}
 .acal-grid .d:not(.past):hover{border-color:var(--pink)}
 .acal-grid .d.blocked{background:rgba(176,96,124,.22);color:var(--canc);position:relative}
 .acal-grid .d.blocked::after{content:"";position:absolute;left:24%;right:24%;top:50%;height:1.5px;background:var(--canc);transform:rotate(-16deg)}
-.acal-legend{display:flex;gap:1.2rem;margin-top:1.2rem;font-size:.72rem;color:var(--mut);flex-wrap:wrap}
+.acal-legend{display:flex;gap:1.2rem;margin-top:1.2rem;font-size:.78rem;color:var(--mut);flex-wrap:wrap}
 .acal-legend span{display:inline-flex;align-items:center;gap:.4rem}
 .dot{width:12px;height:12px;border-radius:4px}
 .dot.open{background:var(--card);border:1px solid var(--hair)}
@@ -174,13 +174,13 @@ input,select,textarea{font:inherit}
 .cs-panel{background:var(--card);border:1px solid var(--hair-2);border-radius:16px;padding:1.5rem}
 .cs-panel h3{font-size:1.2rem;margin-bottom:1rem}
 .cs-panel h3 em{font-style:italic;color:var(--blush)}
-.cs-panel label{display:block;font-size:.58rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--mut);margin:1rem 0 .5rem}
+.cs-panel label{display:block;font-size:.7rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--mut);margin:1rem 0 .5rem}
 .cs-panel label:first-of-type{margin-top:0}
 .cs-panel select,.cs-panel input{width:100%;background:var(--panel);border:1px solid var(--hair);border-radius:10px;padding:.75rem .9rem;color:var(--ivory)}
 .cs-panel select:focus,.cs-panel input:focus{outline:none;border-color:var(--pink)}
 .cs-out{background:var(--panel);border:1px solid var(--hair);border-radius:12px;padding:1.2rem;min-height:220px;white-space:pre-wrap;font-size:.92rem;line-height:1.7;color:#E6D3DE}
 .cs-tags{margin-top:1rem;display:flex;flex-wrap:wrap;gap:.4rem}
-.cs-tag{font-size:.72rem;color:var(--blush);background:var(--panel);border:1px solid var(--hair-2);border-radius:999px;padding:.3rem .7rem}
+.cs-tag{font-size:.78rem;color:var(--blush);background:var(--panel);border:1px solid var(--hair-2);border-radius:999px;padding:.3rem .7rem}
 .cs-actions{display:flex;gap:.6rem;margin-top:1.2rem;flex-wrap:wrap}
 .toast{position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%) translateY(20px);background:var(--pink);color:#fff;padding:.8rem 1.5rem;border-radius:999px;font-size:.82rem;font-weight:700;opacity:0;pointer-events:none;transition:all .4s var(--ease);z-index:100}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
@@ -198,9 +198,9 @@ input,select,textarea{font:inherit}
 .av-card h3{font-size:1.15rem;display:flex;align-items:center;gap:.5rem}
 .av-card h3 em{font-style:italic;color:var(--blush)}
 .av-sub{font-size:.82rem;color:var(--mut);margin:.3rem 0 1rem}
-.av-count{font-size:.62rem;font-weight:800;background:var(--panel);color:var(--blush);padding:.15rem .5rem;border-radius:999px}
+.av-count{font-size:.7rem;font-weight:800;background:var(--panel);color:var(--blush);padding:.15rem .5rem;border-radius:999px}
 .av-range{display:flex;gap:.8rem;flex-wrap:wrap}
-.av-range label{flex:1;min-width:120px;font-size:.58rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--mut);display:flex;flex-direction:column;gap:.4rem}
+.av-range label{flex:1;min-width:120px;font-size:.7rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--mut);display:flex;flex-direction:column;gap:.4rem}
 .av-range input{background:var(--panel);border:1px solid var(--hair);border-radius:9px;padding:.6rem .7rem;color:var(--ivory);color-scheme:dark}
 .av-range input:focus{outline:none;border-color:var(--pink)}
 .blk-list{display:flex;flex-direction:column;gap:.5rem;max-height:340px;overflow:auto}
@@ -214,7 +214,7 @@ input,select,textarea{font:inherit}
 .gp-tabbar{position:sticky;top:0;z-index:30;background:var(--bg);padding:.9rem 0;margin-bottom:1rem;box-shadow:0 14px 18px -14px rgba(0,0,0,.65)}
 @media (max-width:860px){.gp-tabbar{top:0}}
 .gp-body{scroll-margin-top:110px}
-.gp-tab{font-size:.64rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:.5rem .9rem;border-radius:999px;border:1px solid var(--hair-2);color:var(--mut);transition:all .3s}
+.gp-tab{font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:.5rem .9rem;border-radius:999px;border:1px solid var(--hair-2);color:var(--mut);transition:all .3s}
 .gp-tab:hover{color:var(--ivory);border-color:var(--pink)}
 .gp-tab.on{background:var(--pink);border-color:var(--pink);color:#fff}
 .gp-sec{display:none}
@@ -228,17 +228,17 @@ input,select,textarea{font:inherit}
 .gp-card p strong{color:var(--ivory)}
 .gp-card ul{list-style:none;display:flex;flex-direction:column;gap:.85rem;margin-bottom:1rem}
 .gp-card li{display:block;position:relative;padding-left:1.35rem;font-size:.9rem;line-height:1.65;color:#D9C7D0}
-.gp-card li::before{content:"♥";color:var(--pink);font-size:.68rem;position:absolute;left:0;top:.52em;line-height:1}
+.gp-card li::before{content:"♥";color:var(--pink);font-size:.7rem;position:absolute;left:0;top:.52em;line-height:1}
 .gp-card li>strong:first-child{display:block;color:var(--ivory);margin-bottom:.2rem;line-height:1.4}
 .gp-lead{font-size:.98rem!important;color:var(--blush)!important;font-family:var(--serif);font-style:italic}
 .gp-copy{position:relative;background:var(--panel);border:1px solid var(--hair);border-radius:12px;padding:1.1rem 1.2rem;margin:.8rem 0 1.2rem;white-space:pre-wrap;font-size:.9rem;line-height:1.65;color:#EAD8E2}
-.gp-copy .cbtn{position:absolute;top:.7rem;right:.7rem;font-size:.56rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bg);background:var(--blush);padding:.3rem .7rem;border-radius:999px;transition:background .3s}
+.gp-copy .cbtn{position:absolute;top:.7rem;right:.7rem;font-size:.7rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bg);background:var(--blush);padding:.3rem .7rem;border-radius:999px;transition:background .3s}
 .gp-copy .cbtn:hover{background:#fff}
-.gp-copy .lbl{display:block;font-size:.56rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--rose);margin-bottom:.6rem}
+.gp-copy .lbl{display:block;font-size:.7rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--rose);margin-bottom:.6rem}
 .gp-day{border:1px solid var(--hair-2);border-radius:12px;margin-bottom:.7rem;overflow:hidden}
 .gp-day summary{cursor:pointer;padding:.9rem 1.1rem;font-weight:700;font-size:.92rem;display:flex;align-items:center;gap:.7rem;list-style:none;background:var(--panel)}
 .gp-day summary::-webkit-details-marker{display:none}
-.gp-day summary .dtag{font-size:.58rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:.2rem .55rem;border-radius:999px;flex:none}
+.gp-day summary .dtag{font-size:.7rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:.2rem .55rem;border-radius:999px;flex:none}
 .gp-day summary .dtag.reel{background:rgba(212,0,148,.16);color:var(--pink)}
 .gp-day summary .dtag.photo{background:rgba(108,140,192,.16);color:var(--done)}
 .gp-day summary .dtag.story{background:rgba(224,167,62,.16);color:var(--new)}
@@ -247,13 +247,13 @@ input,select,textarea{font:inherit}
 .gp-day[open] summary::after{transform:rotate(45deg)}
 .gp-day .in{padding:1rem 1.1rem;font-size:.88rem;color:#D9C7D0;line-height:1.7}
 .gp-day .in b{color:var(--ivory)}
-.gp-pill{display:inline-block;font-size:.6rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--blush);background:var(--panel);border:1px solid var(--hair-2);border-radius:999px;padding:.25rem .6rem;margin:0 .3rem .3rem 0}
+.gp-pill{display:inline-block;font-size:.7rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--blush);background:var(--panel);border:1px solid var(--hair-2);border-radius:999px;padding:.25rem .6rem;margin:0 .3rem .3rem 0}
 .gp-week{display:flex;align-items:center;gap:.8rem;padding:1rem 1.2rem;background:var(--panel);border:1px solid var(--hair-2);border-radius:12px;margin-bottom:.7rem}
 .gp-week .wn{font-family:var(--serif);font-style:italic;color:var(--pink);font-size:1.1rem;flex:none;width:60px}
 .gp-week b{display:block;font-size:.98rem;margin-bottom:.2rem}
 .gp-week span{font-size:.82rem;color:var(--mut)}
 .sp-tbl{width:100%;border-collapse:collapse;margin:.6rem 0 1.2rem;font-size:.85rem}
-.sp-tbl th{text-align:left;font-size:.56rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--blush);background:var(--panel);padding:.6rem .7rem;border:1px solid var(--hair-2)}
+.sp-tbl th{text-align:left;font-size:.7rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--blush);background:var(--panel);padding:.6rem .7rem;border:1px solid var(--hair-2)}
 .sp-tbl td{padding:.55rem .7rem;border:1px solid var(--hair-2);color:#D9C7D0;vertical-align:top}
 .sp-tbl tr:nth-child(even) td{background:rgba(247,238,240,.02)}
 .sp-tbl td b{color:var(--ivory)}
@@ -270,13 +270,13 @@ input,select,textarea{font:inherit}
 .yt-link .yt-ic{flex:none;width:30px;height:30px;border-radius:7px;background:#FF0033;display:flex;align-items:center;justify-content:center;margin-top:1px}
 .yt-link .yt-ic svg{width:16px;height:16px;color:#fff}
 .yt-link .yt-t{font-size:.82rem;font-weight:700;color:var(--ivory);line-height:1.3}
-.yt-link .yt-s{display:block;font-size:.66rem;color:var(--mut);font-weight:600;margin-top:.15rem}
+.yt-link .yt-s{display:block;font-size:.7rem;color:var(--mut);font-weight:600;margin-top:.15rem}
 .lz-wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:1.1rem;margin:.6rem 0 .3rem}
 .lz{background:var(--panel);border:1px solid var(--hair-2);border-radius:14px;padding:1rem 1rem 1.1rem}
 .lz h5{font-size:.92rem;color:var(--ivory);margin-bottom:.2rem}
-.lz .lz-sub{font-size:.72rem;color:var(--mut);margin-bottom:.6rem}
+.lz .lz-sub{font-size:.78rem;color:var(--mut);margin-bottom:.6rem}
 .lz svg{width:100%;height:auto;display:block;border-radius:8px;background:radial-gradient(120% 120% at 50% 0,rgba(212,0,148,.06),transparent 70%)}
-.lz .lz-key{font-size:.72rem;color:#D9C7D0;margin-top:.5rem;line-height:1.5}
+.lz .lz-key{font-size:.78rem;color:#D9C7D0;margin-top:.5rem;line-height:1.5}
 .step-card{counter-reset:stp}
 .step{display:flex;gap:.9rem;padding:.7rem 0;border-bottom:1px solid var(--hair-2)}
 .step:last-child{border-bottom:0}
@@ -288,10 +288,79 @@ input,select,textarea{font:inherit}
 .spec-tbl td:first-child{color:var(--blush);font-weight:700;white-space:nowrap;width:38%}
 .spec-tbl tr:nth-child(odd) td{background:rgba(247,238,240,.02)}
 
+/* FESTIVE-51 */
+.fd-dates{display:flex;flex-wrap:wrap;gap:.5rem;margin:.4rem 0 1.1rem}
+.fd-dates span{display:flex;flex-direction:column;padding:.55rem .8rem;background:var(--panel);border:1px solid var(--hair-2);border-radius:10px;font-size:.78rem;color:var(--mut);line-height:1.35}
+.fd-dates b{font-family:var(--serif);font-size:.98rem;color:var(--ivory);font-weight:500}
+.fd-tools{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-bottom:.4rem}
+.fd-prog{display:flex;align-items:center;gap:.6rem;font-size:.8rem;color:var(--mut)}
+.fd-prog b{color:var(--ivory)}
+.fd-bar{display:block;width:120px;height:4px;border-radius:4px;background:var(--hair-2);overflow:hidden}
+.fd-bar i{display:block;height:100%;width:0;background:var(--pink);transition:width .6s var(--ease)}
+.fd-kpi{font-size:.8rem!important;color:var(--mut)!important;margin-bottom:.9rem!important}
+.fd-kpi b{font-size:.7rem;font-weight:800;letter-spacing:.16em;color:var(--pink);margin-right:.5rem}
+.fd-day summary{flex-wrap:wrap;row-gap:.35rem}
+.fd-day .fd-d{flex:none;min-width:5.6rem;color:var(--blush);font-weight:800}
+.fd-day .fd-t{flex:1 1 12rem;font-weight:600}
+.fd-fest,.fd-now{flex:none;font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:.2rem .55rem;border-radius:999px;border:1px solid var(--hair);color:var(--blush)}
+.fd-now{background:var(--pink);border-color:var(--pink);color:#fff}
+.fd-day.today{border-color:var(--pink);box-shadow:0 0 0 1px var(--pink) inset}
+.fd-day.done summary{opacity:.5}
+.fd-day.done .fd-t{text-decoration:line-through;text-decoration-color:var(--rose)}
+.fd-mark{margin-top:.8rem;font-size:.7rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:.45rem .9rem;border-radius:999px;border:1px solid var(--hair-2);color:var(--ivory);transition:border-color .3s,background .3s}
+.fd-mark:hover{border-color:var(--pink)}
+.fd-day.done .fd-mark{background:rgba(79,165,107,.14);border-color:var(--conf)}
+@media (max-width:640px){.fd-day .fd-d{min-width:0}.fd-day .fd-t{flex-basis:100%}}
+/* ═══ V2 · DARK LUXURY ADMIN (1 Oct 2026): same brand as the new site, tuned for daily use ═══ */
+:root{
+  --bg:#0D0808;--bg-2:#140C0B;--panel:#1C1210;--card:#171010;
+  --ivory:#F7F1EC;--mut:#A8958E;--blush:#E3C58B;--rose:#C9A067;
+  --hair:rgba(216,183,119,.22);--hair-2:rgba(247,241,236,.08);
+  --gold:#D8B777;--serif:"Bodoni Moda","Didot",Georgia,serif;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+body{background:var(--bg)}
+.grain{display:none}
+::selection{background:var(--pink);color:#fff}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+html{scrollbar-color:#5a4230 var(--bg)}
+h1,h2,h3,h4,.page-head h2{font-family:var(--serif);font-weight:400;letter-spacing:-.01em}
+.page-head h2 em,.gp-card h3 em,.login-card h1 em{color:var(--gold)}
+.side{background:var(--bg-2);border-right-color:var(--hair)}
+.nav-item{transition:background-color .25s,color .25s}
+.nav-item.on{background:var(--pink);color:#fff;box-shadow:0 8px 20px -12px rgba(0,0,0,.8)}
+.nav-item:not(.on):hover{background:rgba(247,241,236,.05)}
+.gp-card,.bcard,.stat,.acal,.cs-card{border-color:var(--hair-2)}
+.gp-tab.on{box-shadow:none}
+.gp-day summary{transition:background-color .25s}
+.gp-day summary:hover{background:#221613}
+.gp-day[open] .in{animation:v2open .35s var(--ease)}
+@keyframes v2open{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+.view.on{animation:v2view .45s var(--ease)}
+@keyframes v2view{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.gp-sec.on{animation:v2view .4s var(--ease)}
+@media (max-width:860px){
+  .app{padding-bottom:calc(74px + env(safe-area-inset-bottom))}
+  .side{position:fixed;left:0;right:0;bottom:0;top:auto;z-index:70;flex-wrap:nowrap;justify-content:space-around;gap:0;padding:6px 4px calc(6px + env(safe-area-inset-bottom));border-top:1px solid var(--hair);border-bottom:0;background:rgba(20,12,11,.97)}
+  .side .brand{display:none}
+  .nav-item{flex:1 1 0;max-width:none;padding:.5rem .1rem;border-radius:10px;gap:.25rem}
+  .nav-item svg{width:20px;height:20px}
+  .nav-item span.lbl{font-size:.7rem;font-weight:700;letter-spacing:-.01em}
+  .nav-item span.lbl[data-s]{font-size:0}
+  .nav-item span.lbl[data-s]::after{content:attr(data-s);font-size:.7rem}
+  .main{padding-top:1.1rem}
+  .gp-tabbar{top:0}
+}
+.pw-toggle [hidden]{display:none!important}
+@media (max-width:860px){
+  .gp-tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:2px;mask-image:linear-gradient(90deg,#000 88%,transparent)}
+  .gp-tabs::-webkit-scrollbar{display:none}
+  .gp-tab{flex:none}
+}
+@media (prefers-reduced-motion:reduce){.view.on,.gp-sec.on,.gp-day[open] .in{animation:none}}
 </style>
 </head>
 <body>
-<div class="grain" aria-hidden="true"></div>
 
 <!-- ══════════ LOGIN ══════════ -->
 <div class="login" id="loginView">
@@ -323,9 +392,9 @@ input,select,textarea{font:inherit}
     <div class="brand"><img src="../assets/logo.svg" alt="DamnLove Makeup"></div>
     <button class="nav-item on" data-view="requests"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><span class="lbl">Requests</span><span class="badge" id="navBadge">0</span></button>
     <button class="nav-item" data-view="availability"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></svg><span class="lbl">Availability</span></button>
-    <button class="nav-item" data-view="content"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3l1.9 5.8H20l-4.9 3.6 1.9 5.8L12 14.6 7 18.2l1.9-5.8L4 8.8h6.1z"/></svg><span class="lbl">Content Studio</span></button>
-    <button class="nav-item" data-view="growth"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v6M21 7h-6"/></svg><span class="lbl">Growth Plan</span><span class="badge" style="background:var(--pink);color:#fff">2mo</span></button>
-    <button class="nav-item" data-view="salon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 9l1.5-5h15L21 9"/><path d="M3 9h18v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="M9 21v-6h6v6"/></svg><span class="lbl">Salon Plan</span><span class="badge" style="background:var(--pink);color:#fff">New</span></button>
+    <button class="nav-item" data-view="content"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3l1.9 5.8H20l-4.9 3.6 1.9 5.8L12 14.6 7 18.2l1.9-5.8L4 8.8h6.1z"/></svg><span class="lbl" data-s="Content">Content Studio</span></button>
+    <button class="nav-item" data-view="growth"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v6M21 7h-6"/></svg><span class="lbl" data-s="Growth">Growth Plan</span><span class="badge" style="background:var(--pink);color:#fff">2mo</span></button>
+    <button class="nav-item" data-view="salon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 9l1.5-5h15L21 9"/><path d="M3 9h18v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="M9 21v-6h6v6"/></svg><span class="lbl" data-s="Salon">Salon Plan</span><span class="badge" style="background:var(--pink);color:#fff">New</span></button>
     <div class="spacer"></div>
     <button class="nav-item" id="logoutBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/></svg><span class="lbl">Sign out</span></button>
   </aside>
@@ -393,7 +462,7 @@ input,select,textarea{font:inherit}
     <!-- GROWTH PLAN -->
     <section class="view" id="v-growth">
       <div class="page-head">
-        <div><h2>The <em>comeback</em> plan</h2><p>Your 8-week Lucknow growth playbook. Everything to shoot, post, say and do.</p></div>
+        <div><h2>The <em>growth</em> plan</h2><p>Live now: the 51-day festive calendar (1 Oct to 20 Nov). The 8-week comeback system sits in the other tabs.</p></div>
       </div>
       <div class="gp-tabbar"><div class="gp-tabs" id="gpTabs"></div></div>
       <div class="gp-body" id="gpBody"></div>
@@ -502,10 +571,14 @@ input,select,textarea{font:inherit}
   /* ── nav ── */
   document.querySelectorAll(".nav-item[data-view]").forEach(function(n){
     n.addEventListener("click", function(){
-      document.querySelectorAll(".nav-item[data-view]").forEach(function(x){ x.classList.remove("on"); });
-      n.classList.add("on");
-      document.querySelectorAll(".view").forEach(function(v){ v.classList.remove("on"); });
-      document.getElementById("v-" + n.dataset.view).classList.add("on");
+      var swap = function(){
+        document.querySelectorAll(".nav-item[data-view]").forEach(function(x){ x.classList.remove("on"); });
+        n.classList.add("on");
+        document.querySelectorAll(".view").forEach(function(v){ v.classList.remove("on"); });
+        document.getElementById("v-" + n.dataset.view).classList.add("on");
+      };
+      swap();
+      window.scrollTo(0, 0);
       if (n.dataset.view === "growth" && window.initGrowth) window.initGrowth();
       if (n.dataset.view === "salon" && window.initSalon) window.initSalon();
     });
@@ -1973,7 +2046,394 @@ input,select,textarea{font:inherit}
     spBuilt = true;
   };
 
-  var GP_ORDER = ["overview","comeback","weeks","daily","reels","photos","production","captions","funnels","growth","rescue"];
+  /* ═══════════════════════════════════════════════════════════
+     FESTIVE-51 · Festive + wedding-season calendar
+     Thu 1 Oct → Fri 20 Nov 2026 · 51 dated days
+     Dates checked against Drik Panchang (Lucknow): Navratri 11–19 Oct,
+     Dussehra 20 Oct, Karwa Chauth 29 Oct, Dhanteras 6 Nov, Diwali 8 Nov,
+     Govardhan 10 Nov, Bhai Dooj 11 Nov, Chhath 15 Nov, Dev Uthani 20 Nov.
+     Day labels are computed from the ISO date, never typed by hand.
+     ═══════════════════════════════════════════════════════════ */
+  GP.festive = {
+    label: "Festive 51",
+    intro:
+      '<div class="gp-card">' +
+        '<h3>The <em>festive</em> calendar &middot; 1 Oct to 20 Nov</h3>' +
+        '<p class="gp-lead">51 days. Navratri, Karwa Chauth, Dhanteras, Diwali, then straight into wedding season. Every day is dated and ready to shoot or post.</p>' +
+        '<p>The 8-week comeback built the system. This calendar applies it to the busiest 51 days of the year. The weekly rhythm stays the same (transformation Mon and Sat, teaching Tue, trend Thu, trust Fri, batch shoot Sun). The festivals override it in their own weeks. Reel numbers like <strong>#22</strong> point to the <strong>Reel Ideas</strong> tab, and scripts point to <strong>DM &amp; Sales</strong>.</p>' +
+        '<div class="fd-dates">' +
+          '<span><b>11&ndash;19 Oct</b>Navratri</span>' +
+          '<span><b>20 Oct</b>Dussehra</span>' +
+          '<span><b>29 Oct</b>Karwa Chauth</span>' +
+          '<span><b>6 Nov</b>Dhanteras</span>' +
+          '<span><b>8 Nov</b>Diwali</span>' +
+          '<span><b>11 Nov</b>Bhai Dooj</span>' +
+          '<span><b>15 Nov</b>Chhath</span>' +
+          '<span><b>20 Nov</b>Dev Uthani &middot; shaadi season</span>' +
+        '</div>' +
+        '<div class="fd-tools"><button class="btn btn-solid fd-jump" type="button">Jump to today</button><span class="fd-prog"><b class="fd-count">0</b> of 51 days done<i class="fd-bar"><i></i></i></span></div>' +
+        '<div class="gp-note"><b>Pitru Paksha runs until Sat 10 Oct.</b> Many Lucknow families hold back on celebrating and shopping until then, so 1&ndash;10 Oct is for teaching, trust and quietly pre-booking festive slots. Shoot the Navratri looks now and post them from 11 Oct.</div>' +
+      '</div>' +
+      '<div class="gp-card">' +
+        '<h3>The four <em>offers</em> &middot; one keyword each</h3>' +
+        '<p>Set each keyword as an Instagram auto-reply (Settings &rarr; Business tools &rarr; Saved replies) before 3 Oct. Put in the real price and real slot counts. Never post a number that is not true.</p>' +
+        '<ul>' +
+          '<li><strong>NAVRATRI &middot; Navratri &amp; Dandiya Express (11&ndash;19 Oct)</strong>45-minute festive glam, sweat-proof for 4 hours of garba. Evening slots from 4 PM. Fills weekdays and gives you daily client content for the series.</li>' +
+          '<li><strong>KC &middot; Karwa Chauth (29 Oct)</strong>Sargi-to-moonrise long-wear look, home visits. Offer a group rate for 3+ ladies at one home (saas, bahu, devrani, jethani). Your biggest party day of the year. Evening slots sell out first.</li>' +
+          '<li><strong>DIWALI &middot; Diwali Party Glam (30 Oct&ndash;8 Nov)</strong>Party and family-photo looks. Mother-and-daughters bookings at one home. Dhanteras and Diwali eve are the peak days.</li>' +
+          '<li><strong>DATE / TRIAL &middot; Wedding season (from 20 Nov)</strong>Trial fee adjusts against the package (DM &amp; Sales &rarr; The trial close). Lead with the complete-bride tier (Laveena + Mamta: makeup, hair and draping). Bridal is never discounted.</li>' +
+        '</ul>' +
+        '<div class="gp-copy"><span class="lbl">Auto-reply · NAVRATRI</span>Hi! Navratri Express ke slots 11 se 19 October tak hain.\n\n45 minute ka festive glam, garba aur dandiya ke liye sweat-proof. Price: Rs [X].\n\nApni date, time aur area (Lucknow) bata dijiye, main turant availability bhej deti hoon.</div>' +
+        '<div class="gp-copy"><span class="lbl">Auto-reply · KC</span>Hi! Karwa Chauth, Thursday 29 October.\n\nSargi se chaand tak tikne wala look, ghar pe aake. 3 ya zyada ladies ek ghar pe hon toh group rate milega.\n\nEvening slots sabse pehle bharte hain. Kitne log hain aur kaunsa area, bata dijiye?</div>' +
+        '<div class="gp-copy"><span class="lbl">Auto-reply · DIWALI</span>Hi! Diwali Party Glam, 30 October se 8 November tak.\n\nParty look ya family photo look, dono. Mummy aur betiyon ki booking ek saath ghar pe bhi ho jaati hai.\n\nKaunsi date aur kitne log? Main slots bhej deti hoon.</div>' +
+        '<div class="gp-copy"><span class="lbl">WhatsApp broadcast · festive slots (past clients, send Mon 12 Oct)</span>Hi [Name], Laveena here from DamnLove Makeup.\n\nFestive season ki bookings khul gayi hain:\nNavratri Express: 11 to 19 Oct\nKarwa Chauth: 29 Oct (home visits, group rate for 3+)\nDiwali Party Glam: 30 Oct to 8 Nov\n\nPurane clients ko pehle bata rahi hoon, kyunki evening slots jaldi bhar jaate hain. Date batayiye, main aapke liye rok leti hoon.\n\nAur agar ghar mein kisi ki shaadi Nov-Dec mein hai, toh unhe bhi bata dijiye.</div>' +
+      '</div>' +
+      '<div class="gp-card">' +
+        '<h3>Shoot <em>ahead</em> &middot; the four batch deadlines</h3>' +
+        '<p>Festival content posted on the festival is too late. It has to be up 5&ndash;10 days before, while people are still booking. Use the 6-piece capture from the <strong>Photo Shoots</strong> tab on every look.</p>' +
+        '<ul>' +
+          '<li><strong>By Sat 10 Oct &middot; all 9 Navratri looks</strong>Sun 4 Oct: Orange, White, Red. Wed 7 Oct: Royal Blue, Yellow, Green. Sat 10 Oct: Grey, Purple, Peacock Green. One 7&ndash;12s reel and a hero photo per look. Use Laveena or barter models, with content rights confirmed in writing on WhatsApp.</li>' +
+          '<li><strong>By Sun 18 Oct &middot; Karwa Chauth</strong>The moon look (#30), mehendi-hand close-ups, a red-and-gold saas-bahu pair look. The 14-hour fasting test is shot on Wed 21 Oct.</li>' +
+          '<li><strong>By Sun 1 Nov &middot; Diwali</strong>Gold-eye party look, mother-of-the-family look (#5), the diya-light vs ring-light test, and the complete-bride timelapse with Mamta (#36).</li>' +
+          '<li><strong>By Sun 15 Nov &middot; wedding season</strong>A real trial BTS (#26), the airbrush myth-buster (#12), a hijab-framed bridal look (#32), and the 30-day bride countdown carousel.</li>' +
+        '</ul>' +
+      '</div>' +
+      '<div class="gp-card">' +
+        '<h3>Festive <em>hashtag</em> sets</h3>' +
+        '<p>Use one festival set, plus 2 tags from the Bridal or Local set in the <strong>Hashtags &amp; Channels</strong> tab. 3&ndash;6 in the caption is enough.</p>' +
+        '<div class="gp-copy"><span class="lbl">Navratri set</span>#NavratriLook #NavratriMakeup #9Days9Colours #DandiyaNight #GarbaMakeup #LucknowMakeupArtist #DamnLoveMakeup</div>' +
+        '<div class="gp-copy"><span class="lbl">Karwa Chauth set</span>#KarwaChauth #KarwaChauthLook #KarwaChauthMakeup #FestiveMakeup #LucknowMakeupArtist #LucknowWomen #DamnLoveMakeup</div>' +
+        '<div class="gp-copy"><span class="lbl">Diwali set</span>#DiwaliLook #DiwaliMakeup #DiwaliParty #FestiveGlam #GoldMakeup #LucknowMakeupArtist #DamnLoveMakeup</div>' +
+      '</div>',
+    phases: [
+      { name:"Phase 1 · Pre-book the season", range:"Thu 1 &ndash; Sat 10 Oct",
+        why:"Pitru Paksha week. Teach, build trust, pre-sell festive slots, and shoot all 9 Navratri looks.",
+        kpi:"Auto-replies live by 3 Oct · 9 Navratri looks shot by 10 Oct · a third of Karwa Chauth evening slots pre-booked",
+        days:[
+        { iso:"2026-10-01", tag:"photo", t:"Festive dates carousel + set up the machine",
+          post:"Carousel, 6 slides: ‘Festive season 2026, save these dates’. Navratri 11–19 Oct, Dussehra 20 Oct, Karwa Chauth 29 Oct, Dhanteras 6 Nov, Diwali 8 Nov, Dev Uthani 20 Nov. Last slide: ‘Slots open. DM the festival name.’",
+          hook:"Slide 1 text: ‘2026 ke festive dates. Save kar lo, baad mein mat kehna bataya nahi.’",
+          st:"Poll: ‘Is season sabse zyada excited: Navratri / Karwa Chauth / Diwali / kisi ki shaadi?’ The answers tell you which offer to push hardest.",
+          todo:"Set up the four keyword auto-replies (top of this tab). Change the bio line to ‘Festive + bridal bookings open · DM DATE’. Add a ‘Festive 2026’ highlight. Post the carousel on WhatsApp Status.",
+          cap:"2026 ke festive dates, ek jagah. 📌\n\nNavratri se shaadi season tak, ye 51 din saal ke sabse busy din hain, aur evening slots sabse pehle bharte hain.\n\nSave kar lijiye, behen aur dost ko bhej dijiye.\n\n👉 DM the festival name (NAVRATRI / KC / DIWALI / DATE)\n\n#FestiveMakeup #LucknowMakeupArtist #BridalMakeupLucknow #DamnLoveMakeup" },
+        { iso:"2026-10-02", tag:"reel", t:"Festive skin prep · start 10 days early",
+          post:"Educational reel: 3 steps to start now so festive makeup sits right. Gentle exfoliation twice a week, a night moisturiser as the weather dries out, and SPF every day (it prevents uneven tan before the photos).",
+          hook:"‘Navratri 9 din door hai. Aaj se ye 3 cheezein shuru karo.’ Written on screen in the first frame.",
+          st:"Q&amp;A sticker: ‘Festive makeup mein aapki sabse badi problem?’ Save the best 3 questions for #21 reply-reels later.",
+          todo:"10-10-10 engagement round (Hashtags &amp; Channels tab).",
+          cap:"Navratri 9 din door hai. Makeup ki tayaari aaj se. ✨\n\nAchha makeup achhi skin pe hi baithta hai. Ye 3 steps abhi shuru kariye, aur festive photos mein fark khud dikhega.\n\nSave kariye, 11 Oct ko kaam aayega. 📌\n\n#MakeupTips #FestiveMakeup #LucknowMakeupArtist #DamnLoveMakeup" },
+        { iso:"2026-10-03", tag:"reel", t:"Swipe reveal · Navratri Express launch",
+          post:"Transformation #1 (swipe reveal) with a warm festive look, not full bridal. Launch the Navratri &amp; Dandiya Express offer in the caption.",
+          hook:"‘Wait for it…’ on the bare face. The look lands on the beat drop.",
+          st:"‘Navratri Express slots open. 45 min. Sweat-proof.’ Add a link sticker to the site and a ‘DM NAVRATRI’ text sticker.",
+          todo:"Reply to every comment for 60 minutes after posting.",
+          cap:"Same girl. 45 minutes. Navratri ready. ✨\n\nNavratri &amp; Dandiya Express is back. Festive glam that survives 4 hours of garba, fixed price, evening slots from 4 PM.\n\n11 to 19 October · slots limited\n\n👉 DM ‘NAVRATRI’\n\n#NavratriLook #DandiyaNight #MakeupTransformation #LucknowMakeupArtist #DamnLoveMakeup" },
+        { iso:"2026-10-04", tag:"engage", t:"Batch day 1 · Navratri looks 1–3",
+          post:"Light post: a throwback carousel of 5 past festive looks. ‘Kaunsa look is saal phir se?’ Comments are the goal.",
+          st:"BTS of today’s shoot, without showing the full looks (save the reveals for the series).",
+          shoot:"Day 1 Orange (copper-sunset lid, bronze skin, coral lip). Day 2 White (soft glam, pearl highlight, kohl, rose-nude lip). Day 3 Red (classic red lip, winged liner, bindi). 6-piece capture plus one 7–12s reel each.",
+          todo:"10-minute review: September Insights. Which 3 reels had the best follows? Copy their first 2 seconds this month." },
+        { iso:"2026-10-05", tag:"reel", t:"Airbrush vs HD · dandiya edition",
+          post:"#8 reworked for garba: the same look, airbrush on one side and HD on the other, after 3 hours of dancing (a real test or a fair demo). Honest verdict on who each suits.",
+          hook:"‘Garba ke 4 ghante. Kaunsa makeup bachega: airbrush ya HD?’",
+          st:"This-or-that poll: airbrush vs HD.",
+          todo:"Send the influencer barter pitch (DM &amp; Sales) to 3 Lucknow creators. Offer: free Navratri look in exchange for a collab reel during 11–19 Oct.",
+          cap:"Garba ke 4 ghante. Kaunsa makeup tikega? 💃\n\nAirbrush aur HD dono achhe hain, bas kaam alag hai. Is reel mein honest comparison hai, taaki aap sahi choose karein.\n\nNavratri Express slots: DM ‘NAVRATRI’\n\n#AirbrushMakeup #NavratriMakeup #MakeupTips #LucknowMakeupArtist #DamnLoveMakeup" },
+        { iso:"2026-10-06", tag:"story", t:"3 festive photo mistakes",
+          post:"#7 format, festive edition. (1) SPF with flashback in flash photos. (2) A base too light or too dark for warm diya and bulb light. (3) Glitter everywhere, so the eyes read as flat. Show each mistake and its fix, fast.",
+          hook:"‘Festive photos mein chehra ajeeb kyun aata hai? Ye 3 galtiyan.’",
+          st:"Quiz sticker: ‘Flash photo mein white face kyun aata hai?’ Answer: SPF flashback.",
+          cap:"Festive photos mein chehra white ya dull aata hai? Ye 3 galtiyan hain. 📸\n\nFix simple hai, bas pata hona chahiye. Watch till the end.\n\nSave kariye aur us dost ko bhejiye jiski har photo mein flashback aata hai. 😄\n\n#MakeupTips #FestiveMakeup #MakeupHacks #LucknowMakeupArtist #DamnLoveMakeup" },
+        { iso:"2026-10-07", tag:"photo", t:"Hijab-framed bridal · wedding season opens",
+          post:"#32 as a carousel: a bridal look framed by hijab or dupatta, with close-ups of eyes, jhoomar and nath placement. Muslim brides booking for Nov–Dec are researching now. Use the Nikah &amp; walima caption from the Captions tab.",
+          st:"‘Nov–Dec wedding dates: enquiries open. DM DATE.’",
+          shoot:"Navratri Day 4 Royal Blue (blue liner pop), Day 5 Yellow (golden dewy glow), Day 6 Green (emerald shimmer lid)." },
+        { iso:"2026-10-08", tag:"reel", t:"Trend audio · ‘bas halka sa’",
+          post:"#14 expectation vs reality on a rising audio (under 50K uses). ‘When she says “festival hai, bas halka sa”…’ then cut to full festive glam. 7–10s so it loops.",
+          hook:"The text on the first frame does the work. No intro.",
+          st:"Repost the reel, and add a slider: ‘Kitna halka tha ye?’",
+          todo:"Join 2 Lucknow wedding or brides Facebook groups and answer 2 questions helpfully. Do not drop links." },
+        { iso:"2026-10-09", tag:"reel", t:"Announce the series · 9 Days 9 Colours",
+          post:"7s teaser: 9 colours flashing past on one face (a few frames from each shot look). Announcing a series is the strongest follow trigger, because people come back every day.",
+          hook:"‘11 October se. 9 din. 9 rang. 9 looks. Roz shaam 7 baje.’",
+          st:"Countdown sticker set for Sun 11 Oct, 7 PM. Also a first Karwa Chauth story: ‘KC slots open, evening goes first. DM KC.’",
+          cap:"9 din. 9 rang. 9 looks. 🌈\n\n11 October se, har shaam 7 baje, us din ke rang ka ek naya Navratri look. Garba-proof, photo-ready, aur aap ghar pe try bhi kar sakti hain.\n\nFollow kar lijiye, taaki koi din miss na ho. 💄\n\n#9Days9Colours #NavratriLook #NavratriMakeup #LucknowMakeupArtist #DamnLoveMakeup" },
+        { iso:"2026-10-10", tag:"engage", t:"Batch day 2 · looks 7–9 + trial reel",
+          post:"#26 ‘Trial mein hota kya hai?’ It is a quiet, useful post for the last day of Pitru Paksha, and wedding brides need it now.",
+          st:"‘Kal se 9 din 9 rang, 7 PM.’ Reshare the countdown.",
+          shoot:"Day 7 Grey (silver smoky), Day 8 Purple (plum eyes, berry lip), Day 9 Peacock Green (teal and gold). Bonus: a Durga Puja look (red-white saree, alta, big red bindi) for Bengali community reach on 17–20 Oct.",
+          todo:"Edit reels for Days 1–3 tonight and schedule Day 1 for 7 PM tomorrow." }
+      ]},
+      { name:"Phase 2 · 9 Days, 9 Colours", range:"Sun 11 &ndash; Tue 20 Oct",
+        why:"Navratri and Dussehra. One colour-look reel every evening at 7 PM. Express clients during the day, Karwa Chauth pre-selling in Stories.",
+        kpi:"9 reels on time, none missed · 20+ Navratri Express bookings · two thirds of Karwa Chauth slots booked by 20 Oct",
+        days:[
+        { iso:"2026-10-11", tag:"reel", t:"Day 1 · Orange · Maa Shailputri", fest:"Navratri begins",
+          post:"Series reel at 7 PM. Copper-sunset lid, warm bronze skin, coral lip. End card: ‘Kal ka rang: White.’",
+          hook:"‘Navratri Day 1 · Orange. Sunset eyes jo garba tak tikein.’",
+          st:"Client Express looks all day (ask permission first). Poll: ‘Kal white pehen rahi ho?’",
+          cap:"Navratri Day 1 · Orange · Maa Shailputri 🧡\n\nSunset eyes, warm glow, aur ek coral lip jo garba ke baad bhi wahi rahe.\n\nKal ka rang: White. Follow kariye, 9 din ka series hai.\n\nNavratri Express: DM ‘NAVRATRI’\n\n#9Days9Colours #NavratriLook #NavratriMakeup #LucknowMakeupArtist #DamnLoveMakeup",
+          capLbl:"Series caption · copy and swap the day, colour and look" },
+        { iso:"2026-10-12", tag:"reel", t:"Day 2 · White · Maa Brahmacharini",
+          post:"Series reel at 7 PM. Soft glam, pearl highlight, kohl, rose-nude lip. Add a teaching beat: ‘White outfit? No SPF-heavy base, or the flash turns you grey.’",
+          hook:"‘Day 2 · White. Jab kapda simple ho, chehra bolta hai.’",
+          st:"Client looks. ‘Karwa Chauth, 17 din. Evening slots: [X] left.’",
+          todo:"Send the WhatsApp festive-slots broadcast to past clients (top of this tab)." },
+        { iso:"2026-10-13", tag:"reel", t:"Day 3 · Red · Maa Chandraghanta",
+          post:"Series reel at 7 PM. Classic red lip, winged liner, bindi. Show the lip-lock trick: liner all over, blot, second coat, set through a tissue.",
+          hook:"‘Day 3 · Red. 4 ghante dandiya, lipstick wahi ki wahi.’",
+          st:"Quiz: ‘Red lipstick ko tikaane ka sabse bada trick?’ Answer in the next story." },
+        { iso:"2026-10-14", tag:"reel", t:"Day 4 · Royal Blue · Maa Kushmanda",
+          post:"Series reel at 7 PM. Royal-blue liner pop on neutral skin. Teach the one rule: use blue on the lash line only, never all over the lid.",
+          hook:"‘Day 4 · Royal Blue. Blue liner jo cheap na lage.’",
+          st:"Client looks. Share the best comment from Day 3.",
+          todo:"Send the photographer-collab pitch (DM &amp; Sales) to 3 wedding photographers for the Nov–Dec season." },
+        { iso:"2026-10-15", tag:"reel", t:"Day 5 · Yellow · Maa Skandamata",
+          post:"Series reel at 7 PM on a trending audio (Thursday rule). Golden-yellow dewy glow, honey highlight, peach lip.",
+          hook:"‘Day 5 · Yellow. Glow jo filter jaisa lage, par hai nahi.’",
+          st:"This-or-that: ‘Dewy ya matte for garba?’" },
+        { iso:"2026-10-16", tag:"reel", t:"Day 6 · Green · Maa Katyayani",
+          post:"Series reel at 7 PM. Emerald shimmer lid, soft brown crease, nude lip. Friday is a trust day, so post a client testimonial screenshot to Stories as well.",
+          hook:"‘Day 6 · Green. Emerald eyes, bas ek shade se.’",
+          st:"Testimonial screenshot. ‘Karwa Chauth, 13 din. [X] evening slots left. DM KC.’" },
+        { iso:"2026-10-17", tag:"reel", t:"Day 7 · Grey · Maa Kalaratri", fest:"Durga Puja begins",
+          post:"Series reel at 7 PM. Silver-grey smoky eye, the boldest look of the series. Durga Puja pandals open this weekend, so post the bonus red-white Durga Puja look as a carousel in the morning.",
+          hook:"‘Day 7 · Grey. Smoky jo raat ke 12 baje bhi smoky rahe.’",
+          st:"Heavy client day. Keep the 6-piece capture on every face, above all the reaction clip." },
+        { iso:"2026-10-18", tag:"reel", t:"Day 8 · Purple · Maa Mahagauri",
+          post:"Series reel at 7 PM. Plum eyes, berry lip, soft lilac inner corner.",
+          hook:"‘Day 8 · Purple. Plum eyes har skin tone pe, promise.’",
+          st:"Client looks. ‘Kal last din: Peacock Green.’",
+          shoot:"Karwa Chauth deadline: the moon look (#30), mehendi-hand close-ups, and the red-and-gold saas-bahu pair look." },
+        { iso:"2026-10-19", tag:"reel", t:"Day 9 · Peacock Green · Maa Siddhidatri",
+          post:"Series finale at 7 PM. Teal and gold, the richest look of the nine. End card: ‘Kal: all 9 in 9 seconds.’",
+          hook:"‘Day 9 · Peacock Green. Finale look, poori shaan se.’",
+          st:"Thank the viewers who watched every day. Poll: ‘Agla series kya ho: Karwa Chauth looks / Diwali looks?’" },
+        { iso:"2026-10-20", tag:"reel", t:"Recap reel · 9 din, 9 rang, 1 chehra", fest:"Dussehra",
+          post:"All 9 looks cut on the beat, one second each, so it loops. Ask for a number in the comments.",
+          hook:"‘9 din. 9 rang. Kaunsa best tha? Number comment karo 👇’",
+          st:"‘Karwa Chauth, 9 din baaki. Last evening slots. DM KC.’ Reshare the moon-look teaser.",
+          todo:"Reply to every comment with a question back. Tonight’s comment count decides how far this reel travels.",
+          cap:"9 din. 9 rang. 1 chehra. 🌈\n\nPoore Navratri aap sab ne jo pyaar diya, uske liye thank you. Ab batao, kaunsa din sabse best tha? Number comment karo. 👇\n\nAgla stop: Karwa Chauth, 29 October. DM ‘KC’\n\n#9Days9Colours #NavratriLook #Dussehra #LucknowMakeupArtist #DamnLoveMakeup" }
+      ]},
+      { name:"Phase 3 · Karwa Chauth", range:"Wed 21 &ndash; Thu 29 Oct",
+        why:"Your biggest party-glam day of the year. Prove the look survives a full day of fasting, sell the last slots, then capture everything on the day.",
+        kpi:"Karwa Chauth fully booked by Mon 26 Oct, with a waitlist · one reel past 100K reach · a reaction clip from every client",
+        days:[
+        { iso:"2026-10-21", tag:"reel", t:"The moon look · KC offer reel",
+          post:"#30 at full length: sunset-to-moonrise glam (shot by Sun 18). Use the Karwa Chauth caption in the Captions tab and put in the real slot count.",
+          hook:"‘Chaand dekhne se pehle… chaand ban ke jaana.’",
+          st:"‘[X] evening slots left for 29 Oct. DM KC.’",
+          shoot:"The 14-hour fasting test on Laveena or a model. Airbrush base at 6 AM, timestamps through the day, still clean at moonrise." },
+        { iso:"2026-10-22", tag:"reel", t:"Trend · 4 AM sargi vs 8 PM moonrise",
+          post:"Trend audio, split-screen humour. On the left, sleepy at the 4 AM sargi. On the right, glowing at the 8 PM moonrise. 7–10s.",
+          hook:"‘4 baje sargi. 8 baje chaand. Beech mein 16 ghante. 😅’",
+          st:"Slider: ‘Kitne saal se Karwa Chauth rakh rahi ho?’ It gets high engagement with married women, the exact buyers." },
+        { iso:"2026-10-23", tag:"reel", t:"The 14-hour fasting test",
+          post:"#2 structure, Karwa Chauth edition: no food, no water, 14 hours, makeup still perfect. This is your strongest selling point, shown on camera.",
+          hook:"‘Na khana, na paani, 14 ghante. Makeup tikega? Dekhiye.’",
+          st:"Testimonial from last year’s Karwa Chauth client, if you have one. ‘Slots: [X] left.’",
+          cap:"Na khana. Na paani. 14 ghante. Makeup wahi ka wahi. 🌙\n\nKarwa Chauth pe touch-up ka time kisi ke paas nahi hota. Isliye look aisa banta hai jo sargi se chaand tak chale.\n\n29 October · home visits · group rate 3+ ladies\n\n👉 DM ‘KC’\n\n#KarwaChauth #KarwaChauthLook #LongLastingMakeup #LucknowMakeupArtist #DamnLoveMakeup" },
+        { iso:"2026-10-24", tag:"photo", t:"Saas-bahu carousel · group bookings",
+          post:"Carousel of the red-and-gold pair look (mature skin plus younger skin, #5 thinking). Sell the group rate: 3+ ladies, one home, one visit.",
+          hook:"Slide 1: ‘Is Karwa Chauth, saas-bahu dono chaand.’",
+          st:"‘Ghar pe 3+ log? Group rate. DM KC.’",
+          todo:"Post the carousel to the Facebook Page and 2 Lucknow groups where it fits. Mothers and mothers-in-law book on Facebook." },
+        { iso:"2026-10-25", tag:"engage", t:"Batch day · Diwali looks + KC logistics",
+          post:"#21 reply-with-a-reel to the best Karwa Chauth question from the comments.",
+          shoot:"Diwali gold-eye party look and the diya-light vs ring-light test. Book Mamta for the complete-bride timelapse on Sun 1 Nov.",
+          todo:"Karwa Chauth day plan: client list with times and addresses, a route in area order (Gomti Nagar, Indira Nagar, Hazratganj…), 20-minute buffers, a double kit check, power bank, ring light. Review the Navratri numbers." },
+        { iso:"2026-10-26", tag:"reel", t:"The lip that survives breaking the fast",
+          post:"#9 lip combo, Karwa Chauth edition: a liner, stain and gloss combo that stays on after the first sip of water and the first bite.",
+          hook:"‘Vrat todne ke baad bhi lipstick wahi ki wahi. Combo ye raha.’",
+          st:"‘Karwa Chauth is fully booked’ (only if true). Otherwise: ‘Last [X] slots.’ Start a waitlist for cancellations." },
+        { iso:"2026-10-27", tag:"photo", t:"Karwa Chauth checklist carousel",
+          post:"Saveable carousel: the prep timeline. No new skincare this week. Threading 2 days before. Mehendi the day before. Outfit steamed and jewellery laid out. Sargi with water and fruit. Sit for makeup at [time] for an [time] pooja.",
+          hook:"Slide 1: ‘Karwa Chauth checklist. Save karo, kal kaam aayega.’",
+          st:"Share the carousel with a ‘send to your bhabhi’ nudge. Shares matter more than likes." },
+        { iso:"2026-10-28", tag:"reel", t:"Pack with me · KC eve",
+          post:"#18 day-in-the-life teaser: packing the kit for tomorrow, the client list blurred, lights and brushes laid out. Humanises the hustle.",
+          hook:"‘Kal [X] ghar, ek din. Packing shuru.’",
+          st:"Final call. Waitlist only if you are full.",
+          todo:"Charge everything. Sleep early. Tomorrow is the biggest content day of the month." },
+        { iso:"2026-10-29", tag:"engage", t:"Karwa Chauth day · capture everything", fest:"Karwa Chauth",
+          post:"After moonrise (Lucknow around 8:06 PM, check the exact time on the day), post a 7s montage called ‘Aaj ke chaand’, using only clients who said yes.",
+          st:"All day: sargi-to-moonrise Stories, client looks, and a behind-the-scenes clip between homes.",
+          todo:"6-piece capture on every client, above all the reaction clip. That is 2 weeks of content. Ask for consent on the spot and note it." }
+      ]},
+      { name:"Phase 4 · Diwali", range:"Fri 30 Oct &ndash; Wed 11 Nov",
+        why:"Turn Karwa Chauth proof into Diwali bookings. Party and family-photo looks, with Dhanteras and Diwali eve as the peak days.",
+        kpi:"Google review from every Karwa Chauth client · Diwali Party Glam fully booked · one carousel past 500 saves",
+        days:[
+        { iso:"2026-10-30", tag:"reel", t:"KC reaction montage · Diwali offer opens",
+          post:"#22 bride reaction format using Karwa Chauth mirror moments. It is the most viral MUA format there is.",
+          hook:"‘Uska reaction dekhiye jab usne sheesha dekha 🥹’ (Karwa Chauth edition)",
+          st:"‘Diwali Party Glam, 30 Oct to 8 Nov. DM DIWALI.’",
+          todo:"Send the Google review ask (DM &amp; Sales) to every Karwa Chauth client today, while the memory is fresh." },
+        { iso:"2026-10-31", tag:"reel", t:"Diya-lit swipe reveal · Diwali launch",
+          post:"#1 swipe reveal lit by diyas and warm fairy lights. The gold look lands on the beat.",
+          hook:"‘Is Diwali, diye se zyada aap chamkengi.’",
+          st:"Link sticker to the site. ‘Dhanteras and Diwali eve go first.’",
+          cap:"Is Diwali, diye se zyada aap chamkengi. 🪔✨\n\nDiwali Party Glam: party look ya family photo look, 45 minute mein ready. Mummy aur betiyon ki booking ek saath, ghar pe.\n\n30 Oct to 8 Nov · Dhanteras aur Diwali eve sabse pehle bharte hain\n\n👉 DM ‘DIWALI’\n\n#DiwaliLook #DiwaliMakeup #FestiveGlam #LucknowMakeupArtist #DamnLoveMakeup" },
+        { iso:"2026-11-01", tag:"engage", t:"Batch day · complete bride with Mamta",
+          post:"Karwa Chauth proof carousel: 8–10 client faces from the day, consent only. ‘Karwa Chauth 2026, our chaand.’",
+          shoot:"#36 makeup + hair + drape timelapse with Mamta, and the mother-of-the-family Diwali look (#5).",
+          todo:"Review: the Karwa Chauth enquiries-to-bookings ratio. Note which reel sent the most DMs." },
+        { iso:"2026-11-02", tag:"reel", t:"Diya light vs ring light",
+          post:"Educational side-by-side. The same makeup under a ring light and under diya and bulb light. Then the fix for warm low light: more blush, less matte, glow on the high points, a slightly deeper lip.",
+          hook:"‘Diwali ki photos mein chehra dull kyun aata hai? Light ka khel hai.’",
+          st:"Quiz: ‘Diwali photos ke liye matte ya glow?’",
+          cap:"Diwali ki photos mein chehra dull kyun aata hai? 🪔\n\nDiye aur bulb ki light ring light jaisi nahi hoti. Makeup ko uske hisaab se badalna padta hai, bas 3 cheezein.\n\nSave kariye, Diwali ki raat kaam aayega. 📌\n\n#DiwaliMakeup #MakeupTips #FestiveGlam #LucknowMakeupArtist #DamnLoveMakeup" },
+        { iso:"2026-11-03", tag:"reel", t:"Mummy ka Diwali look",
+          post:"#5 mother transformation: an elegant look for mature skin, ready for family photos. This is the reel that gets forwarded in family WhatsApp groups.",
+          hook:"‘Sirf betiyan hi nahi… is Diwali mummy bhi.’",
+          st:"‘Mother and daughters, one booking, at home. DM DIWALI.’",
+          todo:"Crosspost to the Facebook Page. This is the mothers’ channel." },
+        { iso:"2026-11-04", tag:"photo", t:"Nikah to walima · one bride",
+          post:"#31 (fortnightly Muslim-bridal rotation): a soft regal nikah look, then a bolder walima look on the same bride. Nov–Dec nikah bookings are being decided now.",
+          st:"‘Wedding season, 16 days away. Nov–Dec dates: DM DATE.’" },
+        { iso:"2026-11-05", tag:"reel", t:"Trend · Diwali party GRWM",
+          post:"Trend audio, 7–12s GRWM for a Diwali party. Fast cuts, finished look on the beat.",
+          hook:"‘Diwali party ka look. 7 second. Chalo.’",
+          st:"Client looks. ‘Kal Dhanteras: [X] slots left.’" },
+        { iso:"2026-11-06", tag:"reel", t:"Dhanteras · what to buy for your kit", fest:"Dhanteras",
+          post:"Educational, not a sales post. 5 things worth buying this Dhanteras: good brushes, a daily sunscreen, a shade-matched concealer, a setting spray, a lip liner. 3 things to skip: a 40-shade glitter palette, trendy one-use gadgets, a foundation bought without a shade match. Give no brand claims you have not tested.",
+          hook:"‘Dhanteras pe makeup kit mein kya lo, kya bilkul mat lo.’",
+          st:"Heavy client day. Stories between homes. Show the gold eye look on a client.",
+          cap:"Dhanteras pe sona lijiye, aur kit mein ye 5 cheezein. ✨\n\nAur 3 cheezein jo paisa waste hain, bhale hi sab le rahe hon.\n\nSave kariye, aur shopping se pehle ek baar dekh lijiye. 📌\n\n#Dhanteras #MakeupTips #MakeupKit #LucknowMakeupArtist #DamnLoveMakeup" },
+        { iso:"2026-11-07", tag:"engage", t:"Diwali eve · peak client day",
+          post:"A 7s gold-look reveal (shot Sun 25 Oct), scheduled for 7 PM so you are free for clients.",
+          st:"Client looks all day, with a reaction clip from each one.",
+          todo:"Keep replies short today. Answer DMs in the morning and the evening, and let the scheduled post do the work." },
+        { iso:"2026-11-08", tag:"photo", t:"Happy Diwali · from the team", fest:"Diwali",
+          post:"Morning photo, no sales: Laveena (with Mamta and Prateek if possible) in festive wear. ‘Happy Diwali from DamnLove.’ Post by 11 AM, then spend the day with family.",
+          st:"Morning client looks, then a few family moments. Nothing to push today." },
+        { iso:"2026-11-09", tag:"reel", t:"Diwali 2026 ke chehre",
+          post:"Montage of Diwali client looks with consent, on the beat, 10–12s.",
+          hook:"‘Kal raat Lucknow ki sabse sundar photos yahan hain.’",
+          st:"Send the Google review ask to every Diwali client.",
+          todo:"Pin a new top 3: the Navratri recap, the Karwa Chauth reaction montage, and your best wedding reel. New visitors from the festive wave must see bridal next." },
+        { iso:"2026-11-10", tag:"story", t:"Govardhan · recap and switch to bridal",
+          post:"A 30s talking reel: ‘[X] festive clients in 40 days. Here is what I learned.’ Use real numbers only. It is warm and personal, and it ends on ‘Ab shaadi season.’",
+          st:"Replace the Festive 2026 highlight cover with a Book Your Date highlight.",
+          todo:"Full Insights review of 1 Oct to 10 Nov: top 3 reels by follows and by DMs. Boost the best one with ₹300–500 a day for 5 days, targeting Lucknow women aged 20–45 (Rescue &amp; Scale rules)." },
+        { iso:"2026-11-11", tag:"reel", t:"Bhai Dooj · 20-minute look at home", fest:"Bhai Dooj",
+          post:"A self-do tutorial. Most people do their own makeup for smaller festivals, so a 20-minute look with everyday products gets saved and shared.",
+          hook:"‘Bhai Dooj ke liye 20 minute ka look, ghar ke products se.’",
+          st:"‘Shaadi season, 9 days away. Nov–Dec dates: [X] left. DM DATE.’",
+          cap:"Bhai Dooj ke liye 20 minute ka look, ghar ke products se. 🪔\n\nKoi expensive product nahi, bas sahi order. Try kariye aur tag kariye, main repost karungi.\n\nSave for later. 📌\n\n#BhaiDooj #EasyMakeup #MakeupTutorial #LucknowMakeupArtist #DamnLoveMakeup" }
+      ]},
+      { name:"Phase 5 · Wedding run-up", range:"Thu 12 &ndash; Fri 20 Nov",
+        why:"Turn festive followers into brides. Authority, trials and real scarcity, all timed to Dev Uthani on 20 Nov, when the wedding season opens.",
+        kpi:"10+ wedding trials booked · Nov–Dec calendar filled · 15+ new Google reviews since 1 Oct",
+        days:[
+        { iso:"2026-11-12", tag:"reel", t:"Rating 2026 bridal trends",
+          post:"#19: react to and rate 5 bridal trends as a pro. Opinions get comments. Be kind to other artists, and critique the trend, not the person.",
+          hook:"‘2026 ke bridal trends, rating as a pro. #3 pe mat jaana.’",
+          st:"Poll after each trend: agree or disagree." },
+        { iso:"2026-11-13", tag:"reel", t:"Why bridal costs what it costs",
+          post:"#25 price transparency: the kit, the hours, the trial, the team, the backup plan. It answers the price objection in public, before the DM.",
+          hook:"‘Bridal makeup itna mehenga kyun hota hai? Main bataati hoon.’",
+          st:"‘Nov–Dec: [X] dates left. DM DATE.’" },
+        { iso:"2026-11-14", tag:"reel", t:"Complete bride · one team",
+          post:"#36 timelapse with Mamta (shot 1 Nov): bare face, then makeup, hair and drape. It sells the complete-bride tier without saying the price. Use the ‘Complete bride’ caption in the Captions tab.",
+          hook:"‘Bare face se complete dulhan tak. Ek hi team.’",
+          st:"‘Makeup only or the complete bride? DM DATE and I will send both.’" },
+        { iso:"2026-11-15", tag:"photo", t:"The 30-day bride countdown", fest:"Chhath Puja",
+          post:"Saveable carousel. Trial 4–6 weeks before. No new skincare in the last 3 weeks. Last facial at least 7 days before. Threading 2–3 days before. Water and sleep in the final week. The makeup call time on the day. Keep it general, and send skin concerns to a dermatologist.",
+          hook:"Slide 1: ‘Shaadi 30 din door? Ye countdown save karo.’",
+          st:"A simple, respectful Chhath greeting. No sales today.",
+          shoot:"Wedding deadline: a real trial BTS (#26), the airbrush myth-buster (#12), a hijab-framed bridal look (#32).",
+          todo:"Plan the next 30 days (wedding season) on the same weekly skeleton." },
+        { iso:"2026-11-16", tag:"reel", t:"Trial BTS · book this week",
+          post:"#26 with a real trial. It removes the fear of booking. The offer: the trial fee adjusts against the package when the date is locked.",
+          hook:"‘Trial mein hota kya hai? Chaliye dikhaati hoon.’",
+          st:"‘Trial slots this week: [X]. DM TRIAL.’",
+          todo:"Follow up (DM &amp; Sales, 24–48h script) with every bride who enquired in October and went quiet." },
+        { iso:"2026-11-17", tag:"story", t:"Myth-buster · ‘airbrush looks cakey’",
+          post:"#12: bust the myth on camera with an ultra-natural airbrush bridal base, in macro, with the skin texture visible.",
+          hook:"‘“Airbrush cakey lagta hai.” Sabse bada jhooth.’",
+          st:"Quiz: ‘Airbrush vs HD: kaunsa zyada natural?’ Answer: both are, when done right." },
+        { iso:"2026-11-18", tag:"photo", t:"Hijab-framed bridal · nikah season",
+          post:"#32 as a carousel with the new shoot (fortnightly Muslim-bridal rotation). Eyes, jhoomar, nath, and how the hijab frames the face.",
+          st:"Reshare with ‘Nikah dates for Nov–Dec: DM DATE.’" },
+        { iso:"2026-11-19", tag:"reel", t:"Trend · ‘bas natural sa’",
+          post:"#20 relatable humour on a trending audio: the ‘natural’ bridal look that takes 17 products. Highly shareable to bride group chats.",
+          hook:"‘“Bas natural sa” (every bride ever) 😂’",
+          st:"‘Tag the bride who said this.’" },
+        { iso:"2026-11-20", tag:"reel", t:"Dev Uthani · shaadi season starts", fest:"Dev Uthani Ekadashi",
+          post:"#27 booking urgency, real numbers only. Use the ‘Season booking push’ caption in the Captions tab with today’s true count.",
+          hook:"‘Dev Uthani aaj. Shaadiyaan kal se. Meri Nov–Dec ki [X] dates bachi hain.’",
+          st:"Countdown to the first wedding you have booked. ‘DM DATE, first come, first served.’",
+          todo:"51-day review: follower change, festive bookings, wedding bookings, reviews gained. Write down the 3 formats that won and repeat them all season." }
+      ]}
+    ]
+  };
+
+  function fdLabel(iso){
+    var d = new Date(iso + "T00:00:00");
+    return ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"][d.getDay()] + " " + d.getDate() + " " + ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][d.getMonth()];
+  }
+  function fdToday(){ var d = new Date(); return aIso(d); }
+  function fdLoad(){ try { return JSON.parse(localStorage.getItem("dl_festive_done") || "{}") || {}; } catch(e){ return {}; } }
+  function fdSave(map){ try { localStorage.setItem("dl_festive_done", JSON.stringify(map)); } catch(e){} }
+  function buildFestive(){
+    var today = fdToday(), done = fdLoad();
+    var out = GP.festive.intro;
+    GP.festive.phases.forEach(function(ph){
+      out += '<div class="gp-card" style="padding:1.1rem 1.3rem;margin-bottom:.9rem">' +
+        '<h4 style="margin:.2rem 0 .3rem;font-family:var(--serif);font-size:1.05rem">'+ph.name+' &middot; '+ph.range+'</h4>' +
+        '<p style="font-size:.84rem;margin-bottom:.35rem">'+ph.why+'</p>' +
+        '<p class="fd-kpi"><b>KPI</b>'+ph.kpi+'</p>';
+      ph.days.forEach(function(day){
+        var cls = "gp-day fd-day" + (day.iso === today ? " today" : "") + (done[day.iso] ? " done" : "");
+        var body = "";
+        if (day.post) body += '<b>Post:</b> ' + day.post + '<br>';
+        if (day.hook) body += '<b>Hook:</b> ' + day.hook + '<br>';
+        if (day.st) body += '<b>Stories:</b> ' + day.st + '<br>';
+        if (day.shoot) body += '<b>Shoot:</b> ' + day.shoot + '<br>';
+        if (day.todo) body += '<b>Do:</b> ' + day.todo + '<br>';
+        if (day.cap) body += '<div class="gp-copy"><span class="lbl">' + (day.capLbl || "Caption") + '</span>' + day.cap + '</div>';
+        body += '<button type="button" class="fd-mark">' + (done[day.iso] ? "Done ✓ · undo" : "Mark day done") + '</button>';
+        out += '<details class="'+cls+'" data-iso="'+day.iso+'"' + (day.iso === today ? " open" : "") + '>' +
+          '<summary><span class="dtag '+day.tag+'">'+day.tag+'</span><span class="fd-d">'+fdLabel(day.iso)+'</span><span class="fd-t">'+day.t+'</span>' +
+          (day.fest ? '<span class="fd-fest">'+day.fest+'</span>' : '') +
+          (day.iso === today ? '<span class="fd-now">Today</span>' : '') +
+          '</summary><div class="in">'+body+'</div></details>';
+      });
+      out += '</div>';
+    });
+    return out;
+  }
+  function wireFestive(sec){
+    var done = fdLoad();
+    function refresh(){
+      var n = Object.keys(done).filter(function(k){ return done[k]; }).length;
+      var c = sec.querySelector(".fd-count"); if (c) c.textContent = n;
+      var bar = sec.querySelector(".fd-bar i"); if (bar) bar.style.width = Math.round(n / 51 * 100) + "%";
+    }
+    sec.querySelectorAll(".fd-mark").forEach(function(btn){
+      btn.addEventListener("click", function(){
+        var el = btn.closest(".fd-day"), iso = el.dataset.iso;
+        if (done[iso]) delete done[iso]; else done[iso] = true;
+        fdSave(done);
+        el.classList.toggle("done", !!done[iso]);
+        btn.textContent = done[iso] ? "Done ✓ · undo" : "Mark day done";
+        refresh();
+      });
+    });
+    var jump = sec.querySelector(".fd-jump");
+    if (jump) jump.addEventListener("click", function(){
+      var days = sec.querySelectorAll(".fd-day"), t = fdToday(), target = null;
+      days.forEach(function(d){ if (!target && d.dataset.iso >= t) target = d; });
+      if (!target) { toast("The festive calendar ended on 20 Nov"); return; }
+      target.open = true;
+      target.scrollIntoView({ behavior:"smooth", block:"center" });
+    });
+    refresh();
+  }
+
+  var GP_ORDER = ["festive","overview","comeback","weeks","daily","reels","photos","production","captions","funnels","growth","rescue"];
   var gpBuilt = false;
   function buildDaily(){
     var out = '<div class="gp-card"><h3>Your <em>day-by-day</em> plan &middot; all 56 days</h3>' +
@@ -2002,7 +2462,7 @@ input,select,textarea{font:inherit}
       var sec = document.createElement("div");
       sec.className = "gp-sec" + (i===0 ? " on" : "");
       sec.id = "gpsec-" + key;
-      sec.innerHTML = (key === "daily") ? buildDaily() : GP[key].html;
+      sec.innerHTML = (key === "daily") ? buildDaily() : (key === "festive") ? buildFestive() : GP[key].html;
       body.appendChild(sec);
     });
     tabs.querySelectorAll(".gp-tab").forEach(function(t){
@@ -2028,6 +2488,7 @@ input,select,textarea{font:inherit}
       });
       box.appendChild(btn);
     });
+    wireFestive(document.getElementById("gpsec-festive"));
     gpBuilt = true;
   };
 
